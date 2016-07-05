@@ -1,0 +1,24 @@
+{
+    "author": "eunotomocaf@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "battlestar-galactica-watchface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "BATTLESTAR GALACTICA WATCHFACE",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "76fc12d4-35c3-4c2c-a062-78d0ccb74c21",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
