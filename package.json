@@ -10,7 +10,7 @@
             "configurable",
             "health"
         ],
-        "displayName": "BATTLESTAR GALACTICA",
+        "displayName": "Battlestar Galactica",
         "enableMultiJS": true,
         "messageKeys": [
             "showSteps",
@@ -20,6 +20,13 @@
         "projectType": "native",
         "resources": {
             "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/bsgFont1",
+                    "name": "BSG_FONT_22",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
                 {
                     "file": "images/feet",
                     "name": "FEET_ICON",
