@@ -15,13 +15,13 @@ void handle_init(void) {
   #if defined(PBL_COLOR)
     
     //Background bitmap
-    photoBitmapLayer = gbitmap_create_with_resource(PBL_IF_ROUND_ELSE(RESOURCE_ID_TESTE_1, RESOURCE_ID_TESTE_1));
+    photoBitmapLayer = gbitmap_create_with_resource(PBL_IF_ROUND_ELSE(RESOURCE_ID_PHOTO1_ROUND, PHOTO1_COLOR));
     photoBitmapBackgroundLayer = bitmap_layer_create(GRect(PBL_IF_ROUND_ELSE(141, 0), PBL_IF_ROUND_ELSE(50, 0), PBL_IF_ROUND_ELSE(50, 144), PBL_IF_ROUND_ELSE(50, 169)));
     
   #elif defined(PBL_BW)
     
     //Background bitmaps
-    photoBitmapLayer = gbitmap_create_with_resource(RESOURCE_ID_TESTE_1);
+    photoBitmapLayer = gbitmap_create_with_resource(PHOTO1_BW);
     photoBitmapBackgroundLayer = bitmap_layer_create(GRect(0, 0, 144, 169));
     
   #endif

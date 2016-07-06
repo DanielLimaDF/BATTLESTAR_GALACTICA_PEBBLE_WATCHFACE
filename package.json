@@ -21,21 +21,75 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/TESTE_3",
-                    "name": "TESTE_3",
-                    "targetPlatforms": null,
+                    "file": "images/PHOTO3_ROUND",
+                    "name": "PHOTO3_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/TESTE_2",
-                    "name": "TESTE_2",
-                    "targetPlatforms": null,
+                    "file": "images/PHOTO2_ROUND",
+                    "name": "PHOTO2_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/TESTE_1",
-                    "name": "TESTE_1",
-                    "targetPlatforms": null,
+                    "file": "images/PHOTO1_ROUND",
+                    "name": "PHOTO1_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO3_COLOR",
+                    "name": "PHOTO3_COLOR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO2_COLOR",
+                    "name": "PHOTO2_COLOR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO1_COLOR",
+                    "name": "PHOTO1_COLOR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO3_BW",
+                    "name": "PHOTO3_BW",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO2_BW",
+                    "name": "PHOTO2_BW",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PHOTO1_BW",
+                    "name": "PHOTO1_BW",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
                     "type": "bitmap"
                 }
             ]
