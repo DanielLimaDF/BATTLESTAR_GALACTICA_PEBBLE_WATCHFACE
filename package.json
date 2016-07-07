@@ -21,6 +21,13 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/icon",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "characterRegex": "[0-9]",
                     "file": "fonts/bsgFont1",
                     "name": "BSG_FONT_22",

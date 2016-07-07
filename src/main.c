@@ -49,15 +49,14 @@ int batteryStatusBarSize;
 int backgroundTimeControl = 1;
 int currentBackgroundImage = 1;
 
-
 //Update background image
 static void updateImage(){
   
-  
   if(currentBackgroundImage >= 3){
       currentBackgroundImage = 0;
-    }
+  }
   currentBackgroundImage++;
+  
   
   if(backgroundTimeControl >= 5){
     
@@ -142,6 +141,7 @@ static void health_handler(HealthEventType event, void *context) {
     layer_set_hidden(text_layer_get_layer(stepsText_layer),true);
     
   }
+  
   
 }
 
@@ -247,6 +247,7 @@ static void update_time() {
   
   //update background
   updateImage();
+  
   
 }
 
@@ -380,7 +381,7 @@ void handle_init(void) {
     time2Text_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(122, 103), PBL_IF_ROUND_ELSE(81, 91), 41, 24));
     dateText_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(122, 103), PBL_IF_ROUND_ELSE(104, 114), 41, 36));
     batteryText_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(36, 32), PBL_IF_ROUND_ELSE(146, 146), 32, 22));
-    stepsText_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(92, 63), PBL_IF_ROUND_ELSE(146, 146), 51, 22));
+    stepsText_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(92, 62), PBL_IF_ROUND_ELSE(146, 146), 51, 22));
     
     text_layer_set_text_color(time1Text_layer, GColorYellow);
     text_layer_set_text_color(time2Text_layer, GColorYellow);
